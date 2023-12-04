@@ -1,0 +1,111 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    background-image: url("img/fondoDeCalculadora.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #9df8c1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    -webkit-box-shadow: 0 3px 9px black;
+    box-shadow: 0 3px 9px black;
+   
+    -webkit-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    border-radius: 5%;
+}
+
+#bmiForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-color: black;
+    border-bottom-style: double;
+
+
+}
+
+#parrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-color: black;
+    border-bottom-style: double;
+    margin-bottom: 10px;
+ 
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* styles.css */
+
+/* ... (otros estilos) */
+
+.result-DEFICIENTE {
+    color: #ff124d; /* Amarillo para peso deficiente */
+    -webkit-text-stroke: 0.5px black;
+    
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.result-NORMAL {
+    color: #026305; /* Verde para peso normal */
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.result-SOBREPESO {
+    color: #ff3300; /* Rojo para sobrepeso */
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Añadido para la categoría de 'Obesidad' */
+.result-OBESIDAD {
+    color: #ff3300; /* Puedes ajustar el color según tus preferencias */
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
